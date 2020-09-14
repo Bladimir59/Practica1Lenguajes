@@ -1,0 +1,10 @@
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\bin\Debug\practicaLenguajes1.exe.config
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\bin\Debug\practicaLenguajes1.exe
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\bin\Debug\practicaLenguajes1.pdb
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.csprojAssemblyReference.cache
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.Form1.resources
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.Properties.Resources.resources
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.csproj.GenerateResource.cache
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.csproj.CoreCompileInputs.cache
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.exe
+C:\Users\Bladimir\source\repos\practicaLenguajes1\practicaLenguajes1\obj\Debug\practicaLenguajes1.pdb
