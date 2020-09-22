@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 //agregado por my
 using System.IO;
+using System.Net.Sockets;
 
 namespace practicaLenguajes1
 {
@@ -91,6 +92,23 @@ namespace practicaLenguajes1
         private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Boton_Click(object sender, EventArgs e)
+        {
+            String resultado = "";
+            Analisar llamar = new Analisar();
+            resultado = llamar.EstadoInicial(Area1.Text);
+            copilado.Text = resultado;
+            //PINTA
+            String[] palabrasReservada = {"SI","SINO","SINO_SI","MIENTRAS","HASTA","DESDE","INCREMENTO","HACER" };
+            for (int i=0;i<=palabrasReservada.Length;i++) {
+                int index = Area1.Text.IndexOf(palabrasReservada[i+2]);
+                int Length = palabrasReservada[i+2].Length;
+                Area1.Select(index, Length);
+                Area1.SelectionColor = Color.Green;
+            }
+            
         }
     }
 }

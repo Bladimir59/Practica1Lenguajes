@@ -39,11 +39,12 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.Area1 = new System.Windows.Forms.RichTextBox();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.Boton = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.copilado = new System.Windows.Forms.RichTextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
@@ -157,6 +158,7 @@
             // 
             // splitContainer2.Panel1
             // 
+            this.splitContainer2.Panel1.Controls.Add(this.Boton);
             this.splitContainer2.Panel1.Controls.Add(this.textBox2);
             this.splitContainer2.Panel1.Controls.Add(this.label1);
             this.splitContainer2.Panel1.Controls.Add(this.label2);
@@ -165,10 +167,20 @@
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.richTextBox1);
+            this.splitContainer2.Panel2.Controls.Add(this.copilado);
             this.splitContainer2.Size = new System.Drawing.Size(1050, 198);
             this.splitContainer2.SplitterDistance = 25;
             this.splitContainer2.TabIndex = 0;
+            // 
+            // Boton
+            // 
+            this.Boton.Location = new System.Drawing.Point(151, 0);
+            this.Boton.Name = "Boton";
+            this.Boton.Size = new System.Drawing.Size(75, 23);
+            this.Boton.TabIndex = 5;
+            this.Boton.Text = "Copilar";
+            this.Boton.UseVisualStyleBackColor = true;
+            this.Boton.Click += new System.EventHandler(this.Boton_Click);
             // 
             // textBox2
             // 
@@ -207,14 +219,16 @@
             this.textBox1.Size = new System.Drawing.Size(17, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // richTextBox1
+            // copilado
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1050, 176);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.copilado.BackColor = System.Drawing.SystemColors.Desktop;
+            this.copilado.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.copilado.ForeColor = System.Drawing.SystemColors.Info;
+            this.copilado.Location = new System.Drawing.Point(0, 0);
+            this.copilado.Name = "copilado";
+            this.copilado.Size = new System.Drawing.Size(1050, 169);
+            this.copilado.TabIndex = 0;
+            this.copilado.Text = "";
             // 
             // openFileDialog1
             // 
@@ -266,7 +280,8 @@
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox copilado;
+        private System.Windows.Forms.Button Boton;
     }
 }
 
