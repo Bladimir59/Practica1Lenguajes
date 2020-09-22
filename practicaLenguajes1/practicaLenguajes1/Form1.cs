@@ -103,10 +103,13 @@ namespace practicaLenguajes1
             //PINTA
             String[] palabrasReservada = {"SI","SINO","SINO_SI","MIENTRAS","HASTA","DESDE","INCREMENTO","HACER" };
             for (int i=0;i<=palabrasReservada.Length;i++) {
-                int index = Area1.Text.IndexOf(palabrasReservada[i+2]);
-                int Length = palabrasReservada[i+2].Length;
-                Area1.Select(index, Length);
-                Area1.SelectionColor = Color.Green;
+                int index = 0;
+                index=Area1.Text.IndexOf(palabrasReservada[i-1]);
+                int Length = 0;
+                Length= palabrasReservada[i-1].Length;
+                Area1.Text = (index + " " + Length);
+                //Area1.Select(index, Length);
+                //Area1.SelectionColor = Color.Green;
             }
             
         }
