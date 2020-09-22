@@ -148,6 +148,7 @@
             this.Area1.Size = new System.Drawing.Size(1050, 295);
             this.Area1.TabIndex = 0;
             this.Area1.Text = "";
+            this.Area1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.pintar);
             // 
             // splitContainer2
             // 
